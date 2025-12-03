@@ -13,7 +13,6 @@ function App() {
 
   function addNewProject(newProject) {
     setProjectList(prev => ([...prev, newProject]));
-    console.log(projectList);
   }
 
   let myForm = (
